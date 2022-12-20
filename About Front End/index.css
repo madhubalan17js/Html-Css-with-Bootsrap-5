@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&family=Signika+Negative&family=Signika:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+h1 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 8px;
+  border-radius: 3px;
+  transition: 1s;
+}
+h1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+/* ======NAVBAR===*/
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+.navbar-brand {
+  color: black;
+  font-weight: bolder;
+  font-size: 25px !important;
+}
+.navbar-brand:hover {
+  color: aqua;
+}
+.navbar-toggler {
+  background-color: aqua !important;
+  border: none;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  color: black !important;
+  display: inline-block !important;
+}
+.nav-link:hover {
+  display: inline-block;
+  color: black !important;
+  border-bottom: 3px solid aqua;
+  transition: 1s;
+}
+
+/* ======HOME===*/
+section {
+  min-height: 100hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.web {
+  width: 100%;
+  height: 100%;
+  margin-left: 40px;
+}
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+section .letsgo {
+  margin-left: 40%;
+}
+/* ======About===*/
+.Ui {
+  margin-right: 300px;
+  height: 100vh !important;
+}
+.about-btn {
+  margin-top: 20px;
+  margin-left: 40%;
+}
+.about h1 {
+  font-weight: bold;
+  color: red;
+}
+
+/* =====Services===*/
+.card img {
+  height: 200px !important;
+  transition: 1s;
+}
+
+.inner {
+  background-color: black;
+  /*  background-image: url(Ui.webp); */
+
+  overflow: hidden;
+}
+.card img:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+/* =====Social link===*/

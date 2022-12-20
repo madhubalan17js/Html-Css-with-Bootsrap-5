@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive with Bootsrap</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container-fluid col-10">
+      <!--======= NAVBAR =======-->
+      <nav class="navbar navbar-expand-md" id="navbar">
+        <a class="navbar-brand" href="#">Madhu Balan T</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--======= HOME   =======-->
+      <section id="home">
+        <div class="row pt-5">
+          <div class="col-lg-6 col-md-12 col-12 order-1 pt-5">
+            <h1>Welcome to <span> My Responsive Webpage</span></h1>
+            <p>
+              There are a lot of reasons why someone might want to become a
+              front end developer: Money:
+              <b
+                >he job pays well and has strong career prospects. Challenge:You
+                get to work on a variety of interesting things.</b
+              >T
+            </p>
+            <button class="btn btn-primary letsgo">Let's Go</button>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12 order-sm-2">
+            <img src="web.jpg" class="img-fluid web" />
+          </div>
+        </div>
+      </section>
+      <!--======= About =======-->
+      <section id="about">
+        <div class="row pt-5">
+          <div class="col-lg-6 col-md-12 col-12 px-2">
+            <img src="uii.png" class="img-fluid Ui" />
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-12 px-5 my-5">
+            <h1>
+              About us<br />
+              <span>FrontEnd Forever </span>
+            </h1>
+            <p class="pb-2">
+              Client-side programming using primarily HTML, CSS, and JavaScript
+              to create professional and engaging user experience and user
+              interface.
+            </p>
+            <div class="table-responsive">
+              <table class="table table-borderless table-hover">
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col" class="text-center">
+                      FrontEnd Developer Skills
+                    </th>
+                    <th scope="col" class="text-center">Working Process</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-primary">
+                    <td class="text-center">HTML</td>
+                    <td>To define the <b>Content</b> of webpages</td>
+                  </tr>
+                  <tr class="table-secondary">
+                    <td class="text-center">CSS</td>
+                    <td>To specify the <b>Layout</b> of webpages</td>
+                  </tr>
+                  <tr class="table-success">
+                    <td class="text-center">Javascript</td>
+                    <td>To program the <b>Behavior</b> of webpagezs</td>
+                  </tr>
+                  <tr class="table-danger">
+                    <td class="text-center">DOM</td>
+                    <td>Programming interface for <b>Web</b> documents</td>
+                  </tr>
+                  <tr class="table-warning">
+                    <td class="text-center">Bootstrap</td>
+                    <td><b>Mobile-first</b> websites</td>
+                  </tr>
+                  <tr class="table-info">
+                    <td class="text-center">Angular JS</td>
+                    <td>structural framework for <b>Dynamic web apps</b></td>
+                  </tr>
+                  <tr class="table-light">
+                    <td class="text-center">React JS</td>
+                    <td><b>Open-source</b> JavaScript Library</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <button class="btn btn-success about-btn">About</button>
+          </div>
+        </div>
+      </section>
+      <!--======= Services =======-->
+      <section id="service" class="py-5">
+        <div class="row web pb-5">
+          <h1 class="text-center mb-5 mt-5">OUR SERVICES</h1>
+          <div class="col-md-4 mb-3">
+            <div class="card shadow h-100">
+              <div class="inner">
+                <img
+                  src="devlopingservices.png"
+                  class="card-img-top rounded shadow"
+                />
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">Developing Service</h5>
+                <p class="card-text">
+                  100% Money Back Guratee. Flexible Engagemnt Models. Agile
+                  Developing Process .Strict NDA Terms
+                </p>
+                <button class="btn btn-danger my-2">Learn More...</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card shadow h-100">
+              <div class="inner">
+                <img
+                  src="hcjs-services.png"
+                  class="card-img-top rounded shadow"
+                />
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">HTML5/ CSS/ JS Development</h5>
+                <p class="card-text">
+                  HTML5/CSS3 development services providing front-end
+                  development using HTML5 tools to build quality and robust
+                  applications.
+                </p>
+                <button class="btn btn-danger">Learn More...</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card shadow h-100">
+              <div class="inner">
+                <img src="services.jpg" class="card-img-top rounded shadow" />
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">Front-end Architecture & Design</h5>
+                <p class="card-text">
+                  Frontend development services aimed to create efficient and
+                  sustainable applications with frontend architecture a set of
+                  tools and processes to improve the quality of frontend code.
+                </p>
+                <button class="btn btn-danger my-2">Learn More...</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--======= contact =======-->
+      <section id="contact">
+        <div class="row mb-5">
+          <h1 class="text-center mb-5">Contact</h1>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputPassword1"
+                aria-describedby="Name"
+              />
+              <div id="Name" class="form-text">Good Name</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
+      <!--======= Social linkt =======-->
+      <section id="slink">
+        <div class="row mb-5">
+          <div class="col px-md-5">
+            <a href="https://www.linkedin.com/in/madhu-balan-t-86194b251"
+              ><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="col px-md-5">
+            <a href="#"
+              ><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></i
+            ></a>
+          </div>
+          <div class="col px-md-5">
+            <a href="https://github.com/madhubalan17js"
+              ><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--======= Script =======-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
